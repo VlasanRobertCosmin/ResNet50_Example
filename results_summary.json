@@ -1,0 +1,23 @@
+{
+    "timestamp": "2025-12-19 21:24:36",
+    "model": "ResNet50",
+    "dataset": "CIFAR-100",
+    "test_accuracy": 0.03200000151991844,
+    "test_loss": 13.216301918029785,
+    "final_train_accuracy": 0.22306667268276215,
+    "final_val_accuracy": 0.0272000003606081,
+    "best_val_accuracy": 0.17239999771118164,
+    "best_val_accuracy_epoch": 9,
+    "total_epochs": 20,
+    "frozen_epochs": 10,
+    "fine_tuning_epochs": 10,
+    "input_shape": [
+        75,
+        75,
+        3
+    ],
+    "num_classes": 100,
+    "batch_size": 64,
+    "initial_lr": 0.001,
+    "fine_tuning_lr": 0.0001
+}
